@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lab2</title>
+    <style type="text/css">
+        div {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        #tableBlock {
+            width: auto;
+        }
+
+        #body {
+            display: none;
+        }
+    </style>
+    <script type="text/javascript" src="/Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">$(document).ready(function () {
+            Get("GET");
+            $("#body").css('display', 'block');
+            $("#put").click(function (event) {
+                event.preventDefault();
+                Put();
+            });
+            $("#post").click(function (event) {
+                event.preventDefault();
+                Post();
+            });
+            $("#del").click(function (event) {
+                event.preventDefault();
+                Delete();
+            });
+            $("#get").click(function (event) {
+                event.preventDefault();
+                Get("GET");
+            });
+        });
+        function Get(verb) {
+            $.ajax({
+                url: 'http://localhost:55814/api/values',
+                headers: {
+                    "Accept": "application/json",
+                    "Access-Control-Allow-Origin": '*',
+                    "X-Requested-With": "XMLHttpRequest"
+                },
+                xhrFields: {
+                    withCredentials: true
+                },
+                dataType: 'json',
+                type: 'GET',
+                success: function (data) {
+                    WriteResponse(verb, data);
+                },
+                error: function () {
+                    alert("GET - Error");
+                }
+            });
+        }
+        function Post() {
+            $.ajax({
+                url: 'http://localhost:55814/api/values?result=' + $('#postItem').val(),
+                type: 'POST',
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    Get('POST');
+                },
+                error: function () {
+                    alert("POST - Error");
+                }
+            });
+        }
+        function Put() {
+            var c = $('#putItem').val();
+            $.ajax({
+                url: 'http://localhost:55814/api/values?add=' + c,
+                type: 'PUT',
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    Get("Put");
+                },
+                error: function () {
+                    alert("PUT - Error");
+                }
+            });
+        }
+        function Delete() {
+            $.ajax({
+                url: 'http://localhost:55814/api/values',
+                type: 'DELETE',
+                contentType: "application/json;charset=utf-8",
+                success: function (data) {
+                    Get("DELETE");
+                },
+                error: function () {
+                    alert("DELETE - Error");
+                }
+            });
+        }
+        function WriteResponse(verb, item) {
+            var strResult = "<p><h2>Lab2</h2></p><table><th>Method</th><th>Value</th>";
+            strResult += "<tr><td>" + verb + "</td><td> " + item + "</td><td></tr></table>";
+            $("#tableBlock").html(strResult);
+        }</script>
+</head>
+<body id="body">
+    <div id="tableBlock"></div>
+    <br />
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <label>Post: </label>
+                </td>
+                <td>
+                    <input type="number" id="postItem" />
+                </td>
+                <td>
+                    <button id="post">Post</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Put: </label>
+                </td>
+                <td>
+                    <input type="number" id="putItem" />
+                </td>
+                <td>
+                    <button id="put">Put</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="del">Delete</button>
+                </td>
+                <td>
+                    <button id="get">Get</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br />
+</body>
+</html>

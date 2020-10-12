@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Test REST</title>
+    <script>function WriteResponse(verb, item) {
+            var strResult = "<table><th>Method</th><th>Result</th>";
+            strResult += "<tr><td>" + verb + "</td><td> " + item + "</td><td></tr></table>";
+            result.innerHTML = strResult;
+        }
+        function onGet(verb) {
+            fetch("handler.yns").then(text => text.json()).then(jsonObject => {
+                WriteResponse(verb, jsonObject);
+            });
+        }
+
+        function onPost() {
+            let value = parseInt(document.getElementById('postItem').value);
+            fetch("handler.yns", {
+                method: 'POST',
+                body: `RESULT=${value}`,
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            }).then(onGet("POST"));
+        }
+
+        function onDelete() {
+            fetch("handler.yns", {
+                method: 'DELETE'
+            }).then(onGet("DELETE"));
+        }
+
+        function onPut() {
+            let value = parseInt(document.getElementById('putItem').value);
+            fetch("handler.yns", {
+                method: 'PUT',
+                body: `ADD=${value}`,
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            }).then(onGet("PUT"));
+        }</script>
+</head>
+<body id="body">
+    <p><h2>First lab</h2></p>
+    <div id="result">
+    </div>
+    <br />
+    <div>
+        <table>
+            <tr><td><label>Post: </label></td><td><input type="number" id="postItem" /></td></tr>
+        </table>
+        <ul>
+            <li><a href="#" onclick="onPost()">POST</a></li>
+        </ul>
+    </div>
+    <div>
+        <table>
+            <tr><td><label>Put: </label></td><td><input type="number" id="putItem" /></td></tr>
+        </table>
+        <ul>
+            <li><a href="#" onclick="onPut()">PUT</a></li>
+        </ul>
+    </div>
+    <br />
+    <div>
+        <ul>
+            <li><a href="#" onclick="onDelete()">DELETE</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href="#" onclick="onGet('GET')">GET</a></li>
+        </ul>
+    </div>
+</body>
+</html>
