@@ -1,0 +1,12 @@
+F:\University\4-1\ASP.NET\labs\lab3\Database\bin\Debug\netcoreapp3.1\Database.deps.json
+F:\University\4-1\ASP.NET\labs\lab3\Database\bin\Debug\netcoreapp3.1\Database.runtimeconfig.json
+F:\University\4-1\ASP.NET\labs\lab3\Database\bin\Debug\netcoreapp3.1\Database.runtimeconfig.dev.json
+F:\University\4-1\ASP.NET\labs\lab3\Database\bin\Debug\netcoreapp3.1\Database.dll
+F:\University\4-1\ASP.NET\labs\lab3\Database\bin\Debug\netcoreapp3.1\Database.pdb
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.dll
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.pdb
+F:\University\4-1\ASP.NET\labs\lab3\Database\obj\Debug\netcoreapp3.1\Database.genruntimeconfig.cache

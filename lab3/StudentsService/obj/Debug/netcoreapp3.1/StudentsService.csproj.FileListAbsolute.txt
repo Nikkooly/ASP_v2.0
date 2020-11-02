@@ -1,0 +1,12 @@
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\bin\Debug\netcoreapp3.1\StudentsService.deps.json
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\bin\Debug\netcoreapp3.1\StudentsService.dll
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\bin\Debug\netcoreapp3.1\StudentsService.pdb
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\bin\Debug\netcoreapp3.1\Database.dll
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\bin\Debug\netcoreapp3.1\Database.pdb
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.AssemblyInfoInputs.cache
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.AssemblyInfo.cs
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.csproj.CopyComplete
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.dll
+F:\University\4-1\ASP.NET\labs\lab3\StudentsService\obj\Debug\netcoreapp3.1\StudentsService.pdb
