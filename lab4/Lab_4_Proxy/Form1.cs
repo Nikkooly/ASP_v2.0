@@ -88,5 +88,10 @@ namespace Lab_4_Proxy
                 Sum_3_TextBox3_F.Text = "Error!";
             }
         }
+
+        private void Sum_1_TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

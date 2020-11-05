@@ -8,3 +8,13 @@ D:\Учеба\4 курс 1 семестр\Программирование web-�
 D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4_Proxy\bin\Debug\Lab_4_Proxy.pdb
 D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.exe
 D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.pdb
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\bin\Debug\Lab_4_Proxy.exe.config
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\bin\Debug\Lab_4_Proxy.exe
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\bin\Debug\Lab_4_Proxy.pdb
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.Form1.resources
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.Properties.Resources.resources
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.csproj.GenerateResource.cache
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.exe
+F:\University\4-1\ASP.NET\Lab_4\Lab_4_Proxy\obj\Debug\Lab_4_Proxy.pdb
