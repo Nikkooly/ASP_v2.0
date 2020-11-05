@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://kya/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://kya/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/">
+<wsdl:types>
+<s:schema targetNamespace="http://kya/" elementFormDefault="qualified">
+<s:element name="Sum_1">
+<s:complexType>
+<s:sequence>
+<s:element type="s:int" name="x" maxOccurs="1" minOccurs="1"/>
+<s:element type="s:int" name="y" maxOccurs="1" minOccurs="1"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="Sum_1Response">
+<s:complexType>
+<s:sequence>
+<s:element type="s:int" name="Sum_1Result" maxOccurs="1" minOccurs="1"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="Sum_2">
+<s:complexType>
+<s:sequence>
+<s:element type="s:string" name="s" maxOccurs="1" minOccurs="0"/>
+<s:element type="s:double" name="d" maxOccurs="1" minOccurs="1"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="Sum_2Response">
+<s:complexType>
+<s:sequence>
+<s:element type="s:string" name="Sum_2Result" maxOccurs="1" minOccurs="0"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="Sum_3">
+<s:complexType>
+<s:sequence>
+<s:element type="tns:A" name="a1" maxOccurs="1" minOccurs="0"/>
+<s:element type="tns:A" name="a2" maxOccurs="1" minOccurs="0"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:complexType name="A">
+<s:sequence>
+<s:element type="s:string" name="s" maxOccurs="1" minOccurs="0"/>
+<s:element type="s:int" name="k" maxOccurs="1" minOccurs="1"/>
+<s:element type="s:float" name="f" maxOccurs="1" minOccurs="1"/>
+</s:sequence>
+</s:complexType>
+<s:element name="Sum_3Response">
+<s:complexType>
+<s:sequence>
+<s:element type="tns:A" name="Sum_3Result" maxOccurs="1" minOccurs="0"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="Sum_4">
+<s:complexType>
+<s:sequence>
+<s:element type="s:int" name="x" maxOccurs="1" minOccurs="1"/>
+<s:element type="s:int" name="y" maxOccurs="1" minOccurs="1"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+<s:element name="Sum_4Response">
+<s:complexType>
+<s:sequence>
+<s:element type="s:int" name="Sum_4Result" maxOccurs="1" minOccurs="1"/>
+</s:sequence>
+</s:complexType>
+</s:element>
+</s:schema>
+</wsdl:types>
+<wsdl:message name="Sum_1SoapIn">
+<wsdl:part name="parameters" element="tns:Sum_1"/>
+</wsdl:message>
+<wsdl:message name="Sum_1SoapOut">
+<wsdl:part name="parameters" element="tns:Sum_1Response"/>
+</wsdl:message>
+<wsdl:message name="Sum_2SoapIn">
+<wsdl:part name="parameters" element="tns:Sum_2"/>
+</wsdl:message>
+<wsdl:message name="Sum_2SoapOut">
+<wsdl:part name="parameters" element="tns:Sum_2Response"/>
+</wsdl:message>
+<wsdl:message name="Sum_3SoapIn">
+<wsdl:part name="parameters" element="tns:Sum_3"/>
+</wsdl:message>
+<wsdl:message name="Sum_3SoapOut">
+<wsdl:part name="parameters" element="tns:Sum_3Response"/>
+</wsdl:message>
+<wsdl:message name="Sum_4SoapIn">
+<wsdl:part name="parameters" element="tns:Sum_4"/>
+</wsdl:message>
+<wsdl:message name="Sum_4SoapOut">
+<wsdl:part name="parameters" element="tns:Sum_4Response"/>
+</wsdl:message>
+<wsdl:portType name="SimplexSoap">
+<wsdl:operation name="Add">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sum of 2 int</wsdl:documentation>
+<wsdl:input name="Sum_1" message="tns:Sum_1SoapIn"/>
+<wsdl:output name="Sum_1" message="tns:Sum_1SoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="Concat">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Concatination of string and double</wsdl:documentation>
+<wsdl:input name="Sum_2" message="tns:Sum_2SoapIn"/>
+<wsdl:output name="Sum_2" message="tns:Sum_2SoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="Sum">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sum of fileds of two [A] objects. Return [A] object</wsdl:documentation>
+<wsdl:input name="Sum_3" message="tns:Sum_3SoapIn"/>
+<wsdl:output name="Sum_3" message="tns:Sum_3SoapOut"/>
+</wsdl:operation>
+<wsdl:operation name="Adds">
+<wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Sum of 2 int. Response JSON</wsdl:documentation>
+<wsdl:input name="Sum_4" message="tns:Sum_4SoapIn"/>
+<wsdl:output name="Sum_4" message="tns:Sum_4SoapOut"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding type="tns:SimplexSoap" name="SimplexSoap">
+<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="Add">
+<soap:operation style="document" soapAction="http://kya/Sum_1"/>
+<wsdl:input name="Sum_1">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_1">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Concat">
+<soap:operation style="document" soapAction="http://kya/Sum_2"/>
+<wsdl:input name="Sum_2">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_2">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Sum">
+<soap:operation style="document" soapAction="http://kya/Sum_3"/>
+<wsdl:input name="Sum_3">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_3">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Adds">
+<soap:operation style="document" soapAction="http://kya/Sum_4"/>
+<wsdl:input name="Sum_4">
+<soap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_4">
+<soap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:binding type="tns:SimplexSoap" name="SimplexSoap12">
+<soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="Add">
+<soap12:operation style="document" soapAction="http://kya/Sum_1"/>
+<wsdl:input name="Sum_1">
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_1">
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Concat">
+<soap12:operation style="document" soapAction="http://kya/Sum_2"/>
+<wsdl:input name="Sum_2">
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_2">
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Sum">
+<soap12:operation style="document" soapAction="http://kya/Sum_3"/>
+<wsdl:input name="Sum_3">
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_3">
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+<wsdl:operation name="Adds">
+<soap12:operation style="document" soapAction="http://kya/Sum_4"/>
+<wsdl:input name="Sum_4">
+<soap12:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="Sum_4">
+<soap12:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="Simplex">
+<wsdl:port name="SimplexSoap" binding="tns:SimplexSoap">
+<soap:address location="http://localhost:51199/Simplex.asmx"/>
+</wsdl:port>
+<wsdl:port name="SimplexSoap12" binding="tns:SimplexSoap12">
+<soap12:address location="http://localhost:51199/Simplex.asmx"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

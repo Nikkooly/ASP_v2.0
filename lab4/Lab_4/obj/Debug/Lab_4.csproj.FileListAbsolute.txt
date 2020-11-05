@@ -1,0 +1,112 @@
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\Lab_4.dll.config
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\Lab_4.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\Lab_4.pdb
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\csc.exe
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\csc.exe.config
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\csc.rsp
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\csi.exe
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\csi.exe.config
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\csi.rsp
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.AppContext.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Collections.Immutable.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Console.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.IO.Compression.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.IO.FileSystem.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.IO.Pipes.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Reflection.Metadata.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.AccessControl.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.Claims.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.ValueTuple.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Xml.XPath.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\vbc.exe
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\vbc.exe.config
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\vbc.rsp
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\VBCSCompiler.exe
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\roslyn\VBCSCompiler.exe.config
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\obj\Debug\Lab_4.csprojAssemblyReference.cache
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\obj\Debug\Lab_4.csproj.CoreCompileInputs.cache
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\obj\Debug\Lab_4.csproj.CopyComplete
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\obj\Debug\Lab_4.dll
+D:\Учеба\4 курс 1 семестр\Программирование web-сервисов\Лабы\Lab_4\Lab_4\obj\Debug\Lab_4.pdb
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\Lab_4.dll.config
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\Lab_4.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\Lab_4.pdb
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\csc.exe
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\csc.exe.config
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\csc.rsp
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\csi.exe
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\csi.exe.config
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\csi.rsp
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.Managed.Core.targets
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.AppContext.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Collections.Immutable.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Console.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.IO.Compression.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.IO.FileSystem.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.IO.Pipes.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Reflection.Metadata.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.AccessControl.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.Claims.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Security.Principal.Windows.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.ValueTuple.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Xml.XmlDocument.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Xml.XPath.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\vbc.exe
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\vbc.exe.config
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\vbc.rsp
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\VBCSCompiler.exe
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\roslyn\VBCSCompiler.exe.config
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\obj\Debug\Lab_4.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\obj\Debug\Lab_4.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\obj\Debug\Lab_4.csproj.CopyComplete
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\obj\Debug\Lab_4.dll
+F:\University\4-1\ASP.NET\labs\lab4\Lab_4\obj\Debug\Lab_4.pdb
