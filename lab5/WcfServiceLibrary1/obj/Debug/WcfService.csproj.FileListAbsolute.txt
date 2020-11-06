@@ -1,0 +1,7 @@
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\bin\Debug\WcfService.dll.config
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\bin\Debug\WcfService.dll
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\bin\Debug\WcfService.pdb
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\obj\Debug\WcfService.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\obj\Debug\WcfService.dll
+F:\University\4-1\ASP.NET\labs\lab5\WcfServiceLibrary1\obj\Debug\WcfService.pdb
