@@ -1,0 +1,8 @@
+OrderByNameDesc http://localhost:62938/Service.svc/Students?$orderby=Name desc
+FilterEquals http://localhost:62938/Service.svc/Students?$filter=Id eq 6
+SelectStudents http://localhost:62938/Service.svc/Students
+SelectNotes http://localhost:62938/Service.svc/Notes
+FilterLess http://localhost:62938/Service.svc/Students?$filter=Id le 3
+FilterMore http://localhost:62938/Service.svc/Students?$filter=Id gt 3
+SelectColumsNotes http://localhost:62938/Service.svc/Notes?$select=Subj,Note1,StudentId&$filter=StudentId eq 9&$format=json
+OrderByIdDesc http://localhost:62938/Service.svc/Students?$orderby=Id desc
