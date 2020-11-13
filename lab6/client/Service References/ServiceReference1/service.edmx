@@ -1,0 +1,66 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="WSYNSModel" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <EntityType Name="Note">
+        <Key>
+          <PropertyRef Name="Id" />
+        </Key>
+        <Property Name="Id" Type="Edm.Int32" Nullable="false" p6:StoreGeneratedPattern="Identity" xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="Subj" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        <Property Name="Note1" Type="Edm.Int32" />
+        <Property Name="StudentId" Type="Edm.Int32" Nullable="false" />
+        <NavigationProperty Name="Student" Relationship="WSYNSModel.FK__Note__StudentId__1273C1CD" ToRole="Student" FromRole="Note" />
+        <NavigationProperty Name="Student1" Relationship="WSYNSModel.Fk_Note_Student_id___Cascade" ToRole="Student" FromRole="Note" />
+      </EntityType>
+      <EntityType Name="Student">
+        <Key>
+          <PropertyRef Name="Id" />
+        </Key>
+        <Property Name="Id" Type="Edm.Int32" Nullable="false" p6:StoreGeneratedPattern="Identity" xmlns:p6="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+        <Property Name="Name" Type="Edm.String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        <NavigationProperty Name="Note" Relationship="WSYNSModel.FK__Note__StudentId__1273C1CD" ToRole="Note" FromRole="Student" />
+        <NavigationProperty Name="Note1" Relationship="WSYNSModel.Fk_Note_Student_id___Cascade" ToRole="Note" FromRole="Student" />
+      </EntityType>
+      <Association Name="FK__Note__StudentId__1273C1CD">
+        <End Type="WSYNSModel.Student" Role="Student" Multiplicity="1" />
+        <End Type="WSYNSModel.Note" Role="Note" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="Student">
+            <PropertyRef Name="Id" />
+          </Principal>
+          <Dependent Role="Note">
+            <PropertyRef Name="StudentId" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+      <Association Name="Fk_Note_Student_id___Cascade">
+        <End Type="WSYNSModel.Student" Role="Student" Multiplicity="1">
+          <OnDelete Action="Cascade" />
+        </End>
+        <End Type="WSYNSModel.Note" Role="Note" Multiplicity="*" />
+        <ReferentialConstraint>
+          <Principal Role="Student">
+            <PropertyRef Name="Id" />
+          </Principal>
+          <Dependent Role="Note">
+            <PropertyRef Name="StudentId" />
+          </Dependent>
+        </ReferentialConstraint>
+      </Association>
+    </Schema>
+    <Schema Namespace="lab6" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <EntityContainer Name="WSYNSEntities" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="Notes" EntityType="WSYNSModel.Note" />
+        <EntitySet Name="Students" EntityType="WSYNSModel.Student" />
+        <AssociationSet Name="FK__Note__StudentId__1273C1CD" Association="WSYNSModel.FK__Note__StudentId__1273C1CD">
+          <End Role="Note" EntitySet="Notes" />
+          <End Role="Student" EntitySet="Students" />
+        </AssociationSet>
+        <AssociationSet Name="Fk_Note_Student_id___Cascade" Association="WSYNSModel.Fk_Note_Student_id___Cascade">
+          <End Role="Note" EntitySet="Notes" />
+          <End Role="Student" EntitySet="Students" />
+        </AssociationSet>
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>
