@@ -1,0 +1,10 @@
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\bin\Debug\SyndicationService.dll.config
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\bin\Debug\SyndicationService.dll
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\bin\Debug\SyndicationService.pdb
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\bin\Debug\Newtonsoft.Json.dll
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\bin\Debug\Newtonsoft.Json.xml
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\obj\Debug\SyndicationService.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\obj\Debug\SyndicationService.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\obj\Debug\SyndicationService.csproj.CopyComplete
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\obj\Debug\SyndicationService.dll
+F:\University\4-1\ASP.NET\labs\lab7\SyndicationService\obj\Debug\SyndicationService.pdb

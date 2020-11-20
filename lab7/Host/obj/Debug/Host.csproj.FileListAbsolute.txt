@@ -1,0 +1,13 @@
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\Host.exe.config
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\Host.exe
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\Host.pdb
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\SyndicationService.dll
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\Newtonsoft.Json.dll
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\SyndicationService.pdb
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\SyndicationService.dll.config
+F:\University\4-1\ASP.NET\labs\lab7\Host\bin\Debug\Newtonsoft.Json.xml
+F:\University\4-1\ASP.NET\labs\lab7\Host\obj\Debug\Host.csprojAssemblyReference.cache
+F:\University\4-1\ASP.NET\labs\lab7\Host\obj\Debug\Host.csproj.CoreCompileInputs.cache
+F:\University\4-1\ASP.NET\labs\lab7\Host\obj\Debug\Host.csproj.CopyComplete
+F:\University\4-1\ASP.NET\labs\lab7\Host\obj\Debug\Host.exe
+F:\University\4-1\ASP.NET\labs\lab7\Host\obj\Debug\Host.pdb

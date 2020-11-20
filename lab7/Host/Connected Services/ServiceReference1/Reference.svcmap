@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a27d9d85-4516-4fa1-abed-6c0c6353d7f6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="9925fdf5-531a-4b1c-86be-05bbfa3191d1" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="5635483d-c38f-40f0-be64-f40a70496dcc" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+    <MetadataFile FileName="System.ServiceModel.Syndication.xsd" MetadataType="Schema" ID="ec4a5435-f096-4dc9-8167-006d6f24722d" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+    <MetadataFile FileName="Atom.xsd" MetadataType="Schema" ID="c8ffbfb0-7663-4942-aa4a-22d3351e36fe" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="bc47f63d-003a-4f39-bb8f-ee276e403e9c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+    <MetadataFile FileName="SyndicationService.xsd" MetadataType="Schema" ID="f1ecad74-2271-4054-9016-6194b41f1bde" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="eff6bda9-1487-4171-bb92-5df5ef3443c7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SyndicationService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

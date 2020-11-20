@@ -1,0 +1,52 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Client</title>
+    <script src="Scripts/jquery-3.5.1.js"></script>
+    <script>
+        function getNotes() {
+            
+
+            const studentId = $("#studentId").val();
+
+            $.ajax({
+                url: "http://localhost:8733/Design_Time_Addresses/SyndicationService/Feed1/" + studentId,
+                type: "GET",
+                crossDomain: true,
+                headers: { 
+                 'Access-Control-Allow-Origin': '*' ,
+                 'Access-Control-Allow-Headers': 'Content-Type,Access-Control-Allow-Headers, Authorization, X-Requested-With',
+                 'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'},
+                dataType: "xml",
+                contentType: "application/json; charset=utf-8",
+                //data: data,
+                success: xmlParser,
+                error: error => {
+                    console.log(error);
+                }
+            })
+        }
+        function xmlParser(xml) {
+            $(".main").empty();
+            $(xml).find("item").each(function () {
+
+                $(".main").append('<div class="item"><table border="1"  cellpadding="5"><tr>'
+                    + '<td width="100px">' + $(this).find("title").text() + '</td>' + '<td width="50px">' + $(this).find("description").text() + '</td>'
+                    + '</tr>'
+                    + '</table>');
+            });
+            
+        }
+    </script>
+</head>
+<body>
+    <form id="getNotes" runat="server">
+        <div>
+            <div>
+                <input type="text" id="studentId" />
+                <input type="button" onclick="getNotes()" value="Get Notes" />
+                <div class="main" />
+        </div>
+            </div>
+    </form>
+</body>
+</html>
