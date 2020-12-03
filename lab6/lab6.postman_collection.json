@@ -7,11 +7,37 @@
 	"item": [
 		{
 			"name": "OrderByNameDesc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
+				"body": {
+					"mode": "raw",
 					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:62938/Service.svc/Students?$orderby=Name desc&$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Students"
+					],
+					"query": [
+						{
+							"key": "$orderby",
+							"value": "Name desc"
+						},
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -22,7 +48,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Students?$filter=Id eq 6&$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Students"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "Id eq 6"
+						},
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -33,7 +78,22 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Students?$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Students"
+					],
+					"query": [
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -44,7 +104,22 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Notes?$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Notes"
+					],
+					"query": [
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -55,7 +130,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Students?$filter=Id le 3&$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Students"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "Id le 3"
+						},
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -66,7 +160,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Students?$filter=Id gt 3&$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Students"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "Id gt 3"
+						},
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -77,7 +190,30 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Notes?$select=Subj,Note1,StudentId&$filter=StudentId eq 9&$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Notes"
+					],
+					"query": [
+						{
+							"key": "$select",
+							"value": "Subj,Note1,StudentId"
+						},
+						{
+							"key": "$filter",
+							"value": "StudentId eq 9"
+						},
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
@@ -88,7 +224,26 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "http://localhost:62938/Service.svc/Students?$orderby=Id desc&$format=json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62938",
+					"path": [
+						"Service.svc",
+						"Students"
+					],
+					"query": [
+						{
+							"key": "$orderby",
+							"value": "Id desc"
+						},
+						{
+							"key": "$format",
+							"value": "json"
+						}
+					]
 				}
 			},
 			"response": []
