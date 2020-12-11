@@ -15,7 +15,7 @@ namespace SyndicationService
         public int Note1 { get; set; }
     }
 
-    class NoteResponse
+    public class NoteResponse
     {
         public Note[] Value { get; set; }
     }

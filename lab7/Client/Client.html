@@ -36,17 +36,60 @@
             });
             
         }
+        function getNotes1() {
+
+
+            const studentId1 = $("#studentId1").val();
+
+            $.ajax({
+                url: "http://localhost:8733/Design_Time_Addresses/SyndicationService/Feed1/" + studentId1 + "?format=atom",
+                type: "GET",
+                crossDomain: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Headers': 'Content-Type,Access-Control-Allow-Headers, Authorization, X-Requested-With',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+                },
+                dataType: "xml",
+                contentType: "application/json; charset=utf-8",
+                //data: data,
+                success: xmlParserAtom,
+                error: error => {
+                    console.log(error);
+                }
+            })
+        }
+        function xmlParserAtom(xml) {
+            $(".main1").empty();
+            $(xml).find("entry").each(function () {
+
+                $(".main1").append('<div class="entry"><table border="1"  cellpadding="5"><tr>'
+                    + '<td width="100px">' + $(this).find("title").text() + '</td>' + '<td width="50px">' + $(this).find("content").text() + '</td>'
+                    + '</tr>'
+                    + '</table>');
+            });
+
+        }
     </script>
 </head>
 <body>
-    <form id="getNotes" runat="server">
+<form id="getNotes" runat="server">
+    <div>
         <div>
-            <div>
-                <input type="text" id="studentId" />
-                <input type="button" onclick="getNotes()" value="Get Notes" />
-                <div class="main" />
+            <input type="text" id="studentId" />
+            <input type="button" onclick="getNotes()" value="Get Notes" />
+            <div class="main" />
         </div>
-            </div>
-    </form>
+    </div>
+</form>
+<form id="getNotes1" runat="server">
+    <div>
+        <div>
+            <input type="text" id="studentId1" />
+            <input type="button" onclick="getNotes1()" value="Get Notes Atom" />
+            <div class="main1" />
+        </div>
+    </div>
+</form>
 </body>
 </html>
